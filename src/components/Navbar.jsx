@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className='fixed w-full z-50 bg-dark-100/90 backdrop-blur-sm py-4 px-8 shadow-lg'>
       <div className='container mx-auto flex justify-between items-center'>
         <div>
-          <Link to="/" className='text-3xl font-bold text-white'>
+          <Link to="/home" className='text-3xl font-bold text-white'>
             Subhan
             <span className='text-purple'>Ahmad</span>
             <div className='w-4 h-4 bg-purple rounded-full'></div>
@@ -18,7 +18,7 @@ const Navbar = () => {
 
         {/* Desktop menu */}
         <div className='hidden md:flex space-x-10'>
-          <Link to="/" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+          <Link to="/home" className='relative text-white/80 transition duration-300 hover:text-purple group'>
             <span>Home</span>
             <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
           </Link>
