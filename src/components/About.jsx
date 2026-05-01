@@ -11,7 +11,7 @@ const About = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
       viewport={{ once: true }}
-      id='about'
+      id='#about'
       className='py-20 bg-linear-to-r from-gray-900 via-dark-800 to-gray-900'
     >
       <div className='container mx-0 px-6'>
