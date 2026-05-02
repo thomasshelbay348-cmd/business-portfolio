@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ProjectCard = ({title, description, image, tech }) => {
   return (
@@ -13,11 +14,11 @@ const ProjectCard = ({title, description, image, tech }) => {
                 ))}
             </div>
                  <div className='flex gap-2'>
-                     <a href='#'className='flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300'>
+                     <Link to='#'className='flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300'>
                         Demo View
-                     </a>
-                     <a href='#' className='flex-1 text-center px-4 py-2 border border-purple font-medium rounded-lg hover:bg-purple transition duration-300'>
-                        Code</a>
+                     </Link>
+                     <Link to='#' className='flex-1 text-center px-4 py-2 border border-purple font-medium rounded-lg hover:bg-purple transition duration-300'>
+                        Code</Link>
                  </div>
         </div>
     </div>

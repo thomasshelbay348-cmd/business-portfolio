@@ -3,6 +3,8 @@ import { motion } from 'framer-motion'
 import { projects } from '../assets/assets'
 import ProjectCard from './ProjectCard'
 import { FaArrowRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+
 const Projects = () => {
   return (
     <motion.div
@@ -25,10 +27,10 @@ const Projects = () => {
                 }
             </div>
             <div className='text-center mt-12'>
-                  <a href='#' className='inline-flex items-center px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 transition duration-300'>
+                  <Link to='#' className='inline-flex items-center px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 transition duration-300'>
                     <span>View More Projects</span>
                      <FaArrowRight className='ml-2'/>
-                  </a>
+                  </Link>
             </div>
       </div>
          
